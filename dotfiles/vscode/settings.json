@@ -1,0 +1,115 @@
+{
+
+    // Editor visual
+    "editor.fontSize": 16,
+    "editor.rulers": [79],
+    "editor.renderLineHighlight": "none",
+    "editor.tabSize": 4,
+    "editor.guides.indentation": false,
+    "editor.autoIndent": "advanced",
+    "editor.wrappingIndent": "deepIndent",
+    "editor.formatOnType": true,
+    "editor.wordWrap": "on",
+
+    // Workspace visual
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.filePath": "off",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.wrapTabs": true,
+
+    // Jupyter
+    "notebook.cellToolbarVisibility": "hover",
+    "notebook.consolidatedOutputButton": false,
+    "notebook.dragAndDropEnabled": false,
+    "notebook.globalToolbar": false,
+    "notebook.globalToolbarShowLabel": "never",
+    "notebook.breadcrumbs.showCodeCells": false,
+    "notebook.output.textLineLimit": 100,
+    "notebook.lineNumbers": "on",
+    "jupyter.pythonCompletionTriggerCharacters": ".@",
+
+    // Linters
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.analysis.extraPaths": [
+        "/mnt/c/users/admin/master/astrobot-legacy/",
+        "/mnt/c/users/admin/master/thermal-mass/"],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportGeneralTypeIssues": "none",
+        "reportMissingImports": "none",
+    },
+    // Autocomplete
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "extensions.ignoreRecommendations": false,
+    "editor.suggest.showKeywords": true,
+    "editor.parameterHints.enabled": true,
+    "editor.hover.enabled": true,
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "top",
+    "editor.inlineSuggest.enabled": true,
+
+    // Orgmode
+    "org.addLeftZero": true,
+    "org.todoKeywords": [
+        "TODO",
+        "DONE",
+        "X",
+        "W",
+        "SCHD"
+    ],
+    // Integrated terminal
+    "terminal.integrated.profiles.windows": {},
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.allowChords": false,
+
+    // Copilot
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true,
+        "python": true
+    },
+    "github.copilot.advanced": {
+
+    },
+    // Other
+    "files.trimTrailingWhitespace": true,
+    "explorer.autoReveal": "focusNoScroll",
+    "output.smartScroll.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.renderSideBySide": false,
+    "editor.unicodeHighlight.allowedCharacters": {
+        " ": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "notebook.output.lineHeight": 1.2,
+    "notebook.output.fontSize": 14,
+    "jupyter.askForKernelRestart": false,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.startupEditor": "none",
+
+    // Neovim
+    "vscode-neovim.completionDelay": 1000,
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/saeranv/.config/nvim/init.vim",
+    "vscode-neovim.useWSL": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "python.experiments.enabled": false,
+}

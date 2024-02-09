@@ -1,16 +1,13 @@
 #!/bin/bash
 
-CHT_FPATH="$(realpath "$0")"
-CHT_DPATH="/mnt/c/users/admin/master/orgmode/cht"
+MASTER="/mnt/c/users/saera/master"
+CHT_DPATH="$MASTER/cht"
 
-
-helpcmd=$(python -c 'print("""cht [-tag] [-fn] [-p] [-cat] [-ls] [-h]
-Note: Pass full filepath (i.e. fpath) for cht to work on any files
+helpcmd=$(python -c 'print("""cht <name> [-] 
 Examples: 
    cht                       , lsr $chtd
-   cht vim -                 , cat $chtd/vim.md
-   cht vim                   , nvim +$ $chtd/vim.md 
-   cht -vim                  , opens cht.sh in vim
+   cht bash                  , cat $chtd/bash.md
+   cht bash -                , nvim $chtd/bash.md 
 """)')
 
 openv () {

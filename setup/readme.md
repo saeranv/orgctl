@@ -2,12 +2,9 @@
 
 # TMUX
 ## Install version 3.2a for compatibility w/ vim-jukit
-TMUX_URL=https://github.com/tmux/tmux/releases/download/3.2a/tmux-3.2a.tar.gz
-TMUX_FILE=tmux-3.2a.tar.gz
-
-You may need to manually download file from URL even w/ vpnkit.    
 ```
-vpnkit -run
+TMUX_URL=https://github.com/tmux/tmux/releases/download/3.2a/tmux-3.2a.tar.gz
+TMUX_FILE=tmux-3.2a.tar.gz    
 wget TMUX_URL -o TMUX_FILE
 tar zxvf TMUX_FILE
 ```
@@ -65,7 +62,6 @@ where node | cb
 Defaults editor="/usr/bin/nvim"
 ...
 saeranv ALL=(ALL) NOPASSWD: /mnt/c/users/admin/masterwin/orgmode/auto/vpn/serve_vpnkit.sh
-saeranv ALL=(ALL) NOPASSWD: /mnt/c/users/admin/masterwin/startcron.py
 ```
 
 

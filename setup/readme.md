@@ -32,29 +32,6 @@ tar xzvf NVIM_FILE
 pip install -r $orgd/auto/setup_env/nvim_lsp_requirements.txt
 
 
-## JUKIT_REQUIREMENTS.TXT 
-For jukit compatibility, just `pip install -r ...`
-
-## FNM 
-Faster node package manager (than npm)
-Run this to curl and run install script that appends fnm vars/path to $zshf
-```
-curl -fssl https://fnm.vercel.app/install | bash 
-source $zshf
-
-# Then install v16.20.1 (for copilot compatibility) 
-fnm v16.20.1/bin/node
-fnm default v16.20.1
-
-# To get the node binary path to set manually in the init.lua for copilot:
-# confirm version
-$(where node | head -1) --version
-# save fpath to clipboard
-where node | cb 
-
-# You can also now comment out the fnm stuff in zsh. We don't need it.
-```
-
 ## VISUDO
 ### Run `sudo visudo`
 ### Add:

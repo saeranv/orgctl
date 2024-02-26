@@ -1,2 +1,0 @@
-ipykernel==5.1.0
-ipython==7.3.0
